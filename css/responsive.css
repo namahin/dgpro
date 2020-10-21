@@ -40,7 +40,7 @@
     }
 
     .nav-list li a:hover {
-        color: #0DC270;
+        color: #0DC270 !important;
     }
 
     .nav-list li a::after {
@@ -53,12 +53,18 @@
         display: inline-block;
     }
 
+    .nav-list li:last-child a:hover {
+        color: #fff !important;
+    }
+
     .action-button a {
         padding: 7px 35px;
     }
-    .nav-list li a svg{
+
+    .nav-list li a svg {
         display: none;
     }
+
     .testimonial-item {
         margin-top: 50px;
     }
@@ -93,7 +99,8 @@
         color: #222;
     }
 
-    .uk-offcanvas-bar .uk-offcanvas-close:hover,.uk-offcanvas-bar .uk-offcanvas-close:focus {
+    .uk-offcanvas-bar .uk-offcanvas-close:hover,
+    .uk-offcanvas-bar .uk-offcanvas-close:focus {
         color: #0DC270;
     }
 }
