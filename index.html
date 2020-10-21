@@ -51,17 +51,40 @@
         <!-- animation kits end -->
 
         <!-- navigation bar start -->
-        <header uk-sticky="bottom: #animation; animation: uk-animation-slide-top">
+        <header uk-sticky="animation: uk-animation-slide-top">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="index.html"><img src="images/Dgpro-logo.png" alt="Dgpro logo"></a>
-                    <button class="navbar-toggler theme-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <button class="navbar-toggler theme-toggler" type="button" uk-toggle="target: #offcanvas-flip">
                         <i class="fad fa-bars"></i>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse">
                         <div id="menu-center" class="ml-auto">
+                            <ul class="navbar-nav nav-list">
+                                <li class="nav-item">
+                                    <a href="#home" class="active" uk-scroll>Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about-us" uk-scroll>About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#services" uk-scroll>Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#portfolio" uk-scroll>Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="secondary-btn" href="contact-us.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- mobile menu offcanvas -->
+                    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                        <div class="uk-offcanvas-bar">
+
+                            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
                             <ul class="navbar-nav nav-list">
                                 <li class="nav-item">
                                     <a href="#home" class="active" uk-scroll>Home</a>
@@ -153,65 +176,106 @@
                 satisfied after getting services from us and we<br> have been doing this successfully for a long time
             </p>
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 d-flex align-items-stretch flex-wrap">
                     <div class="service-card">
-                        <img src="images/Mobile-App-Development.svg" alt="mobile app development">
-                        <h3>Mobile App Development</h3>
-                        <p>Get ahead of your competition by using our expertise in mobile application development to
-                            create beautiful pixel-perfect designs, great user interface and maximize impact on your
-                            target audience all through the use of apps.</p>
-                        <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        <div class="service-card-img">
+                            <img src="images/Mobile-App-Development.svg" alt="mobile app development">
+                        </div>
+                        <div class="service-card-text">
+                            <h3>Mobile App Development</h3>
+                            <p>Get ahead of your competition by using our expertise in mobile application development to
+                                create beautiful pixel-perfect designs, great user interface and maximize impact on your
+                                target audience all through the use of apps.</p>
+                        </div>
+                        <div class="service-card-anchor">
+                            <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 d-flex align-items-stretch flex-wrap">
                     <div class="service-card">
-                        <img src="images/ui-ux-design.svg" alt="ui ux agency">
-                        <h3>UI/UX Design</h3>
-                        <p>We’ll work alongside your team to give you a User Experience consultation that can help
-                            channel your audience to the right location which can solidify your position in a
-                            competitive marketplace.</p>
-                        <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        <div class="service-card-img">
+                            <img src="images/ui-ux-design.svg" alt="ui ux agency">
+                        </div>
+                        <div class="service-card-text">
+                            <h3>UI/UX Design</h3>
+                            <p>We’ll work alongside your team to give you a User Experience consultation that can help
+                                channel your audience to the right location which can solidify your position in a
+                                competitive marketplace.</p>
+                        </div>
+                        <div class="service-card-anchor">
+                            <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 d-flex align-items-stretch flex-wrap">
                     <div class="service-card">
-                        <img src="images/Web-Development.svg" alt="best Web Development company">
-                        <h3>Web Development</h3>
-                        <p>Our ace team of Web Developers and Digital Specialists are hard at work to create tailored
-                            web experiences so that you can better engage with your customers. We’ll handle everything
-                            from web design to web development process until it is time to make...</p>
-                        <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        <div class="service-card-img">
+                            <img src="images/Web-Development.svg" alt="best Web Development company">
+                        </div>
+                        <div class="service-card-text">
+                            <h3>Web Development</h3>
+                            <p>Our ace team of Web Developers and Digital Specialists are hard at work to create
+                                tailored
+                                web experiences so that you can better engage with your customers. We’ll handle
+                                everything
+                                from web design to web development process until it is time to make...</p>
+                        </div>
+                        <div class="service-card-anchor">
+                            <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 d-flex align-items-stretch flex-wrap">
                     <div class="service-card">
-                        <img src="images/Digital-Content-Design.svg" alt="hire digital content writer">
-                        <h3>Digital Content Design</h3>
-                        <p>The right content can make your brand or break it. Over the years we’ve worked alongside with
-                            other brands and perfected the techniques of how to use illustrations, animations, and
-                            copy-writing in a right concoction to give them a truly unique brand personality.</p>
-                        <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        <div class="service-card-img">
+                            <img src="images/Digital-Content-Design.svg" alt="hire digital content writer">
+                        </div>
+                        <div class="service-card-text">
+                            <h3>Digital Content Design</h3>
+                            <p>The right content can make your brand or break it. Over the years we’ve worked alongside
+                                with
+                                other brands and perfected the techniques of how to use illustrations, animations, and
+                                copy-writing in a right concoction to give them a truly unique brand personality.</p>
+                        </div>
+                        <div class="service-card-anchor">
+                            <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 d-flex align-items-stretch flex-wrap">
                     <div class="service-card">
-                        <img src="images/Digital-Marketing.svg" alt="top digital marketing agency">
-                        <h3>Digital Marketing</h3>
-                        <p>Emails are a low-cost way to connect with your users for sure, but what happens to them after
-                            they’ve reached your client’s inbox? We’ll help you with great email marketing strategy
-                            formulation and implementation which will add top-line revenue to your business.</p>
-                        <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        <div class="service-card-img">
+                            <img src="images/Digital-Marketing.svg" alt="top digital marketing agency">
+                        </div>
+                        <div class="service-card-text">
+                            <h3>Digital Marketing</h3>
+                            <p>Emails are a low-cost way to connect with your users for sure, but what happens to them
+                                after
+                                they’ve reached your client’s inbox? We’ll help you with great email marketing strategy
+                                formulation and implementation which will add top-line revenue to your business.</p>
+                        </div>
+                        <div class="service-card-anchor">
+                            <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 d-flex align-items-stretch flex-wrap">
                     <div class="service-card">
-                        <img src="images/Branding-Design.svg" alt="top branding and advertising agency">
-                        <h3>Branding Design</h3>
-                        <p>Visual communication of the modern era, motion graphic helps interpret your brand
-                            personality, making it lively and energetic. Our expert creative team will help animate your
-                            brand story with well crafted and beautifully designed Branding graphic for a worldwide
-                            audience.</p>
-                        <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        <div class="service-card-img">
+                            <img src="images/Branding-Design.svg" alt="top branding and advertising agency">
+                        </div>
+                        <div class="service-card-text">
+                            <h3>Branding Design</h3>
+                            <p>Visual communication of the modern era, motion graphic helps interpret your brand
+                                personality, making it lively and energetic. Our expert creative team will help animate
+                                your
+                                brand story with well crafted and beautifully designed Branding graphic for a worldwide
+                                audience.</p>
+                        </div>
+                        <div class="service-card-anchor">
+                            <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>

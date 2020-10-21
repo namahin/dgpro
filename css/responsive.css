@@ -13,17 +13,28 @@
 @media (max-width: 991.98px) {
     .nav-list {
         padding-top: 30px;
-        background-color: #fff;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .nav-list li {
         margin: 0;
+        margin-bottom: 5px;
     }
 
     .nav-list li a {
         padding: 5px 0;
         display: block;
         border: none;
+        color: #707070;
+    }
+
+    .nav-list li a:hover {
+        color: #0DC270;
+    }
+
+    .nav-list li a::after {
+        display: none;
     }
 
     .nav-list li:last-child a {
@@ -59,6 +70,18 @@
 
     .case-study-sec {
         padding-top: 60px;
+    }
+
+    .uk-offcanvas-bar {
+        background: #fff;
+    }
+
+    .uk-offcanvas-bar .uk-offcanvas-close {
+        color: #222;
+    }
+
+    .uk-offcanvas-bar .uk-offcanvas-close:hover {
+        color: #0DC270;
     }
 }
 
