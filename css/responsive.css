@@ -1,0 +1,186 @@
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .testimonial_animation .animation.three {
+        display: none;
+    }
+
+    .testimonial-item {
+        margin-top: 100px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .nav-list {
+        padding-top: 30px;
+        background-color: #fff;
+    }
+
+    .nav-list li {
+        margin: 0;
+    }
+
+    .nav-list li a {
+        padding: 5px 0;
+        display: block;
+        border: none;
+    }
+
+    .nav-list li:last-child a {
+        margin-top: 15px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .action-button a {
+        padding: 7px 35px;
+    }
+
+    .testimonial-item {
+        margin-top: 50px;
+    }
+
+    .testimonial-slider {
+        height: 400px;
+    }
+
+    .testimonial-item article {
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+
+    .testimonial-content {
+        padding-right: 0;
+    }
+
+    .about-sec {
+        padding-top: 50px;
+    }
+
+    .case-study-sec {
+        padding-top: 60px;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .testimonial-item {
+        margin-top: 50px;
+    }
+
+    .testimonial-item article {
+        padding: 0 60px;
+    }
+
+    .case-study-sec p br {
+        display: none;
+    }
+
+    .case-study-sec p {
+        line-height: 26px;
+    }
+
+    .action-button {
+        text-align: left;
+        margin-top: 25px;
+    }
+
+    .action-sec {
+        margin-bottom: 10px
+    }
+
+    .footer-widget {
+        text-align: left !important;
+        margin-top: 30px;
+    }
+
+    .social-icon {
+        margin-bottom: 10px;
+    }
+
+    .footer-widget h5 {
+        margin-bottom: 0px;
+    }
+
+    .footer-sec h2 {
+        padding: 0 10px;
+        line-height: 50px;
+    }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .services-sec {
+        margin-bottom: 20px;
+    }
+
+    .action-sec {
+        padding: 50px 0;
+    }
+
+    .case-study-sec {
+        margin-bottom: 50px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer div.text-right {
+        text-align: center !important;
+    }
+
+    .bg-light {
+        margin-bottom: 0;
+        padding: 20px 0
+    }
+
+    .home_animation .triangle.b_eight {
+        display: none;
+    }
+
+    .home-sec {
+        margin-bottom: 50px;
+    }
+
+    .footer-sec {
+        padding-top: 0;
+    }
+
+    .bg-dark {
+        padding: 30px 0;
+    }
+
+    .sec-title,
+    .action-sec h2,
+    .testimonial-content h2,
+    .footer-sec h2 {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    .services-sec p br,
+    .clients-sec p br {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-brand {
+        width: 180px;
+    }
+
+    .home-content h1 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .home-content p br {
+        display: none;
+    }
+}
