@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <title>Contact with Dgpro | Grow Your Business and Get More Customers Through Digital</title>
+    <title>Contact with Dgpro | We deliver digital products to streamline your business process.</title>
 
     <!-- Dgpro Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -56,7 +56,7 @@
         <header uk-sticky="animation: uk-animation-slide-top">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="index.html"><img src="images/Dgpro-logo.png" alt="Dgpro logo"></a>
+                    <a class="navbar-brand" href="http://dgpro.mahin.xyz/"><img src="images/Dgpro-logo.png" alt="Dgpro logo"></a>
                     <button class="navbar-toggler theme-toggler" type="button" uk-toggle="target: #offcanvas-flip">
                         <i class="fad fa-bars"></i>
                     </button>
@@ -64,16 +64,16 @@
                         <div id="menu-center" class="ml-auto">
                             <ul class="navbar-nav nav-list">
                                 <li class="nav-item">
-                                    <a href="#home" class="active" uk-scroll>Home</a>
+                                    <a href="http://dgpro.mahin.xyz#home" class="active" uk-scroll>Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#about-us" uk-scroll>About Us</a>
+                                    <a href="http://dgpro.mahin.xyz#about-us" uk-scroll>About Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#services" uk-scroll>Services</a>
+                                    <a href="http://dgpro.mahin.xyz#services" uk-scroll>Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#portfolio" uk-scroll>Portfolio</a>
+                                    <a href="http://dgpro.mahin.xyz#portfolio" uk-scroll>Portfolio</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="secondary-btn" href="contact.php">Contact Us</a>
@@ -101,7 +101,7 @@
                                     <a href="#portfolio" class="uk-offcanvas-close" uk-close uk-scroll>Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="secondary-btn" href="contact-us.html">Contact Us</a>
+                                    <a class="secondary-btn" href="contact.php">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -161,20 +161,6 @@
                     <button type="submit" name="btn-send" class="primary-btn" role="button">Send Message</button>
                 </div>
             </form>
-            <?php 
-                $Msg = "";
-                    if(isset($_GET['error']))
-                {
-                    $Msg = " Please Fill in the Blanks ";
-                    echo '<div class="alert alert-danger">'.$Msg.'</div>';
-                }
-
-                if(isset($_GET['success']))
-                {
-                    $Msg = " Your Message Has Been Sent ";
-                    echo '<div class="alert alert-success">'.$Msg.'</div>';
-                }
-            ?>
         </div>
         <!-- contact form section end -->
 

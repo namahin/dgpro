@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <title>Dgpro | Grow Your Business and Get More Customers Through Digital</title>
+    <title>Dgpro | We deliver digital products to streamline your business process.</title>
 
     <!-- Dgpro Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -54,7 +54,7 @@
         <header uk-sticky="animation: uk-animation-slide-top">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="index.html"><img src="images/Dgpro-logo.png" alt="Dgpro logo"></a>
+                    <a class="navbar-brand" href="http://dgpro.mahin.xyz"><img src="images/Dgpro-logo.png" alt="Dgpro logo"></a>
                     <button class="navbar-toggler theme-toggler" type="button" uk-toggle="target: #offcanvas-flip">
                         <i class="fad fa-bars"></i>
                     </button>
@@ -99,7 +99,7 @@
                                     <a href="#portfolio" class="uk-offcanvas-close" uk-close uk-scroll>Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="secondary-btn" href="contact-us.html">Contact Us</a>
+                                    <a class="secondary-btn" href="contact.php">Contact Us</a>
                                 </li>
                             </ul>
                         </div>

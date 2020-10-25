@@ -133,7 +133,7 @@
     }
 
     .footer-widget {
-        text-align: left !important;
+        text-align: center !important;
         margin-top: 30px;
     }
 
@@ -166,12 +166,12 @@
     }
 
     .testimonial-slider::before {
-       background-image: url(../images/qutes.png);
-       position: absolute;
-       z-index: 1;
-       width: 100%;
-       height: 130px;
-       top: 75px;
+        background-image: url(../images/qutes.png);
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 130px;
+        top: 75px;
     }
 
     .testimonial-slider .owl-dots {
@@ -203,6 +203,11 @@
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .home-content h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
     .services-sec {
         margin-bottom: 20px;
     }
@@ -263,9 +268,13 @@
         width: 180px;
     }
 
+    .home-content {
+        padding-top: 50px;
+    }
+
     .home-content h1 {
-        font-size: 32px;
-        line-height: 44px;
+        font-size: 28px;
+        line-height: 40px;
     }
 
     .home-content p {
