@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,7 +54,7 @@
         <header uk-sticky="animation: uk-animation-slide-top">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="http://dgpro.mahin.xyz/"><img src="images/Dgpro-logo.png" alt="Dgpro logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/Dgpro-logo.png" alt="Dgpro logo"></a>
                     <button class="navbar-toggler theme-toggler" type="button" uk-toggle="target: #offcanvas-flip">
                         <i class="fad fa-bars"></i>
                     </button>
@@ -64,16 +62,16 @@
                         <div id="menu-center" class="ml-auto">
                             <ul class="navbar-nav nav-list">
                                 <li class="nav-item">
-                                    <a href="http://dgpro.mahin.xyz#home" class="active" uk-scroll>Home</a>
+                                    <a href="index.php" class="active" uk-scroll>Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="http://dgpro.mahin.xyz#about-us" uk-scroll>About Us</a>
+                                    <a href="index.php#about-us" uk-scroll>About Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="http://dgpro.mahin.xyz#services" uk-scroll>Services</a>
+                                    <a href="index.php#services" uk-scroll>Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="http://dgpro.mahin.xyz#portfolio" uk-scroll>Portfolio</a>
+                                    <a href="index.php#portfolio" uk-scroll>Portfolio</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="secondary-btn" href="contact.php">Contact Us</a>
@@ -133,27 +131,35 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="input-field">
-                            <input type="text" id="name" name="name" onkeyup="this.setAttribute('value', this.value);" value="" required><label for="name">Name</label>
+                            <input type="text" id="name" name="name" onkeyup="this.setAttribute('value', this.value);"
+                                value="" required><label for="name">Name</label>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <div class="input-field">
-                            <input type="email" id="email" name="email" onkeyup="this.setAttribute('value', this.value);" value="" required><label for="email">Email</label>
+                            <input type="email" id="email" name="email"
+                                onkeyup="this.setAttribute('value', this.value);" value="" required><label
+                                for="email">Email</label>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <div class="input-field">
-                            <input type="text" id="company" name="company" onkeyup="this.setAttribute('value', this.value);" value="" required><label for="company">Company</label>
+                            <input type="text" id="company" name="company"
+                                onkeyup="this.setAttribute('value', this.value);" value="" required><label
+                                for="company">Company</label>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <div class="input-field">
-                            <input type="tel" name="phone" id="phone" onkeyup="this.setAttribute('value', this.value);" value="" required><label for="phone">Phone</label>
+                            <input type="tel" name="phone" id="phone" onkeyup="this.setAttribute('value', this.value);"
+                                value="" required><label for="phone">Phone</label>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="input-field">
-                            <textarea name="message" id="message" rows="6" onkeyup="this.setAttribute('value', this.value);" value="" required></textarea><label for="message">Your message</label>
+                            <textarea name="message" id="message" rows="6"
+                                onkeyup="this.setAttribute('value', this.value);" value="" required></textarea><label
+                                for="message">Your message</label>
                         </div>
                     </div>
                 </div>
@@ -175,7 +181,8 @@
             <div class="row">
                 <div class="col-md-10 offset-md-1 bg-light">
                     <div class="gmap">
-                        <iframe src="https://maps.google.com/maps?q=DIT%20Project%2C%20Merul%20Badda&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        <iframe
+                            src="https://maps.google.com/maps?q=DIT%20Project%2C%20Merul%20Badda&t=&z=13&ie=UTF8&iwloc=&output=embed"
                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     </div>
                     <div class="text-center">

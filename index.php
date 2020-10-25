@@ -54,7 +54,7 @@
         <header uk-sticky="animation: uk-animation-slide-top">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="http://dgpro.mahin.xyz"><img src="images/Dgpro-logo.png" alt="Dgpro logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/Dgpro-logo.png" alt="Dgpro logo"></a>
                     <button class="navbar-toggler theme-toggler" type="button" uk-toggle="target: #offcanvas-flip">
                         <i class="fad fa-bars"></i>
                     </button>
