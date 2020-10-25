@@ -74,7 +74,7 @@
                                     <a href="#portfolio" uk-scroll>Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="secondary-btn" href="contact-us.html">Contact Us</a>
+                                    <a class="secondary-btn" href="contact.php">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -326,7 +326,7 @@
                             premium virtual solutions. Watch what one of our clients has to say about us.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-12 position-relative">
                     <div class="testimonial-slider owl-carousel owl-theme">
                         <div class="item">
                             <div class="testimonial-item">

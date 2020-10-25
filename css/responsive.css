@@ -112,7 +112,7 @@
     }
 
     .testimonial-item article {
-        padding: 0 60px;
+        padding: 0 15px;
     }
 
     .case-study-sec p br {
@@ -148,6 +148,56 @@
     .footer-sec h2 {
         padding: 0 10px;
         line-height: 50px;
+    }
+
+    .testimonial-content .owl-next,
+    .testimonial-content .owl-prev {
+        display: none;
+    }
+
+    .testimonial-content {
+        padding-bottom: 0;
+    }
+
+    .testimonial-slider .owl-stage-outer {
+        background-color: #0DC270;
+        overflow: initial;
+        padding-bottom: 50px;
+    }
+
+    .testimonial-slider::before {
+       background-image: url(../images/qutes.png);
+       position: absolute;
+       z-index: 1;
+       width: 100%;
+       height: 130px;
+       top: 75px;
+    }
+
+    .testimonial-slider .owl-dots {
+        position: relative;
+        bottom: 30px;
+        width: 100%;
+        display: block;
+        padding-bottom: 20px;
+        background: #0DC270;
+    }
+
+    .case-study-sec h2 {
+        margin-top: 30px;
+    }
+
+    .testimonial-slider .owl-dot span {
+        background-color: #fff !important;
+        opacity: .4;
+    }
+
+    .testimonial-slider .owl-dot.active span {
+        opacity: .7;
+    }
+
+    .testimonial-item img {
+        border: 3px solid #fff;
     }
 }
 

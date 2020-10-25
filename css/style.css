@@ -59,6 +59,12 @@ a:hover {
     transition: linear .2s;
 }
 
+button,
+button:hover,
+button:focus {
+    outline: none !important;
+}
+
 .primary-btn {
     font-size: 16px;
     line-height: 40px;
@@ -70,6 +76,7 @@ a:hover {
     border-radius: 5px;
     padding: 7px 45px;
     transition: linear .2s;
+    border: none;
 }
 
 .primary-btn:hover {
@@ -110,6 +117,10 @@ a:hover {
     background-size: 100% 85%;
     background-position: top center;
     position: relative;
+}
+
+.home-sec-inner {
+    background-size: 100% 42%;
 }
 
 header {
@@ -511,6 +522,9 @@ header nav {}
     height: 576px;
 }
 
+.testimonial-slider .owl-dots {
+    display: none;
+}
 
 .testimonial-slider::before {
     content: "";
@@ -756,6 +770,11 @@ header nav {}
     position: relative;
 }
 
+.footer-sec-inner {
+    background-image: url(../images/footer-bg-inner.svg);
+    background-position: top center;
+}
+
 .footer-sec::before {
     content: '';
     background-image: url(../images/footer-bg-circule-art.svg);
@@ -767,6 +786,13 @@ header nav {}
     left: 0;
     bottom: 0;
     position: absolute;
+}
+
+.footer-sec-inner .bg-light {
+
+    padding-top: 0;
+    box-shadow: 0 -3px 50px #0000000f;
+    border-radius: 10px 10px 0 0;
 }
 
 .bg-light {
@@ -958,6 +984,7 @@ footer a i {}
 
 .home_animation .triangle {
     position: absolute;
+    z-index: 1;
 }
 
 .home_animation .triangle.b_seven {
@@ -1240,4 +1267,121 @@ footer a i {}
 
 /* -------------------------------------------------------- */
 /* animation kits css end */
+/* -------------------------------------------------------- */
+
+/*  */
+/*  */
+/*  */
+
+/* -------------------------------------------------------- */
+/* contact page css */
+/* -------------------------------------------------------- */
+.inner-banner {
+    padding-top: 100px;
+    margin-bottom: 135px;
+}
+
+.inner-banner h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #263A5E;
+    line-height: 75px;
+    margin-bottom: 35px;
+    padding-top: 50px;
+}
+
+.inner-banner p {
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #496B86;
+}
+
+.inner-banner img {}
+
+/* form-section */
+.contact-form {
+    margin-bottom: 80px;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 36px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ECECEC;
+    background: transparent;
+    border-radius: 2px;
+    color: #808080;
+}
+
+.input-field label {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    padding: 13px 0;
+    font-size: 16px;
+    color: #A7A7A7;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+
+
+.input-field textarea {
+    border: 1px solid #ECECEC;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 2px;
+    width: 100%;
+    color: #808080;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label,
+.input-field input:not([value=""])~label {
+    top: -13px;
+    left: 10px;
+    color: #0DC270;
+    font-size: 14px;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.input-field textarea:focus~label,
+.input-field textarea:valid~label,
+.input-field textarea:not([value=""])~label {
+    top: -13px;
+    left: 10px;
+    color: #0DC270;
+    font-size: 14px;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.input-field input:focus,
+.input-field textarea:focus {
+    outline: none;
+    border: 1px solid #0DC270;
+}
+
+.gmap {
+    padding: 15px;
+    padding-bottom: 45px;
+}
+
+.gmap iframe {
+    width: 100%;
+    height: 650px;
+    border-radius: 10px;
+}
+
+/* -------------------------------------------------------- */
+/* contact page css end */
 /* -------------------------------------------------------- */

@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <title>Dgpro | Grow Your Business and Get More Customers Through Digital</title>
+    <title>Contact with Dgpro | Grow Your Business and Get More Customers Through Digital</title>
 
     <!-- Dgpro Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -32,7 +34,7 @@
 
 <body>
     <!-- home section start from here -->
-    <section id="home" class="home-sec">
+    <section id="home" class="home-sec home-sec-inner">
 
         <!-- animation kits -->
         <div class="home_animation">
@@ -74,7 +76,7 @@
                                     <a href="#portfolio" uk-scroll>Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="secondary-btn" href="contact-us.html">Contact Us</a>
+                                    <a class="secondary-btn" href="contact.php">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -108,16 +110,88 @@
             </div>
         </header>
         <!-- navigation bar end -->
-</section>
 
+        <div class="container">
+            <div class="inner-banner">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <h2>Do You Need<br>
+                            UI/UX Design?</h2>
+                        <p>We’re here to tell your brand story. And our job is to tell your brand story better than
+                            others.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img src="images/team.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact form section -->
+        <div class="container">
+            <form action="mail.php" method="post" class="contact-form">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="input-field">
+                            <input type="text" id="name" name="name" onkeyup="this.setAttribute('value', this.value);" value="" required><label for="name">Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="input-field">
+                            <input type="email" id="email" name="email" onkeyup="this.setAttribute('value', this.value);" value="" required><label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="input-field">
+                            <input type="text" id="company" name="company" onkeyup="this.setAttribute('value', this.value);" value="" required><label for="company">Company</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="input-field">
+                            <input type="tel" name="phone" id="phone" onkeyup="this.setAttribute('value', this.value);" value="" required><label for="phone">Phone</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="input-field">
+                            <textarea name="message" id="message" rows="6" onkeyup="this.setAttribute('value', this.value);" value="" required></textarea><label for="message">Your message</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-md-right">
+                    <button type="submit" name="btn-send" class="primary-btn" role="button">Send Message</button>
+                </div>
+            </form>
+            <?php 
+                $Msg = "";
+                    if(isset($_GET['error']))
+                {
+                    $Msg = " Please Fill in the Blanks ";
+                    echo '<div class="alert alert-danger">'.$Msg.'</div>';
+                }
+
+                if(isset($_GET['success']))
+                {
+                    $Msg = " Your Message Has Been Sent ";
+                    echo '<div class="alert alert-success">'.$Msg.'</div>';
+                }
+            ?>
+        </div>
+        <!-- contact form section end -->
+
+
+    </section>
 
 
     <!--  -->
     <!-- footer section start from here -->
-    <section class="footer-sec">
+    <section class="footer-sec footer-sec-inner">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 offset-md-1 bg-light">
+                    <div class="gmap">
+                        <iframe src="https://maps.google.com/maps?q=DIT%20Project%2C%20Merul%20Badda&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
                     <div class="text-center">
                         <hr>
                         <a href="#" class="primary-btn">Get Start</a>

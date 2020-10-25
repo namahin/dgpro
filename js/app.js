@@ -38,7 +38,7 @@ $('.testimonial-slider').owlCarousel({
     nav: true,
     items: 1,
     autoplay: true,
-    dots: false,
+    dots: true,
     mouseDrag: false,
     navContainer: ".testimonial-content",
     navText: [
