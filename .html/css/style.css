@@ -1381,7 +1381,9 @@ footer a i {}
     height: 650px;
     border-radius: 10px;
 }
-
+.animate-typing[data-animate-index="0"]::after{
+    color: transparent;
+}
 /* -------------------------------------------------------- */
 /* contact page css end */
 /* -------------------------------------------------------- */
